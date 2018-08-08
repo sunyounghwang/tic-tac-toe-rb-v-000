@@ -88,3 +88,5 @@ def winner(board)
     return board[winning_index]
   end
 end
+
+def play(board)
