@@ -99,4 +99,5 @@ def play(board)
     puts "Congratulations! You won the game!"
   elsif draw?(board)
     puts "You're both too good! It's a draw!"
+  end
 end
