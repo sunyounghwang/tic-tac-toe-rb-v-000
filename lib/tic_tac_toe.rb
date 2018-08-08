@@ -96,7 +96,7 @@ def play(board)
   end
 
   if won?(board)
-    puts "Congratulations! You won the game!"
+    puts "Congratulations, winner X! You won the game!"
   elsif draw?(board)
     puts "You're both too good! It's a draw!"
   end
