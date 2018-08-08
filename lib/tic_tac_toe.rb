@@ -91,6 +91,5 @@ def winner(board)
 end
 
 def play(board)
-  puts "Please enter your position:"
-  input = gets.strip
+  turn(board)
 end
